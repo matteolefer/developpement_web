@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <link rel="stylesheet" href="site_photo.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Photography Portfolio</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <div class="container">
+            <h2>Welcome to our Photography Portfolio</h2>
+            <p>Discover stunning photographs captured by our talented photographers.</p>
+            <a href="#gallery" class="btn">View Gallery</a>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <div class="container">
+            <h2>Gallery</h2>
+            <div class="gallery">
+                <!-- Gallery Images Here -->
+                <img src="https://images.unsplash.com/photo-1551963831-b3b1ca40c98e" alt="Montagne Enneigée 1">
+                <img src="https://images.unsplash.com/photo-1514820401762-d290523ce6e0" alt="Montagne Enneigée 2">
+                <img src="https://images.unsplash.com/photo-1513701334307-4f267d7fc042" alt="Montagne Enneigée 3">
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed et tortor eu ipsum cursus tempor eget sit amet est.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Photography Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
